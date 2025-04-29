@@ -1,0 +1,7 @@
+11111111A   Alicia   111.11   A
+22222222B   Peio     222.22   C
+33333333C   Isabel   3333.33  C
+87654321A   Asier    3000     A
+11111111A   Alicia   500.50   C
+33333333C   Isabel   4333.33  A
+12345678A   Lucas    5000     A
