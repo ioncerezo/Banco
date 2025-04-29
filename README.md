@@ -95,18 +95,22 @@ A continuación se muestran capturas de pantalla de las principales funcionalida
 
 ### Menú Principal
 ![Menú Principal](screenshots/menu_principal.png)
+
 *Interfaz del menú principal con las opciones disponibles*
 
 ### Listado de Cuentas
 ![Listado de Cuentas](screenshots/listado_cuentas.png)
+
 *Visualización de cuentas ordenadas por DNI y saldo*
 
 ### Proceso de Transferencia
 ![Transferencia](screenshots/transferencia.png)
+
 *Proceso de transferencia entre cuentas*
 
 ### Pago de Intereses
 ![Pago de Intereses](screenshots/intereses.png)
+
 *Proceso de pago de intereses y reseteo mensual*
 
 ## Ejemplo de Salida
