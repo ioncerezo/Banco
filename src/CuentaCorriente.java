@@ -1,18 +1,3 @@
-/******************************************************************************************************************
- *
- * Nombre: Ion Cerezo Valero
- * Fecha: 20/03/2025
- * Modulo: Programacion.
- * UD: UD8 Herencia e interfaces.
- * Tarea: Tarea Evaluacion. Realiza un programa en Java.
- * Autoevaluacion: https://docs.google.com/document/d/1tXVRQ2J6-DBQXpRBFTAcvjTghCzOB6nE/edit?usp=sharing&ouid=111797469793076501298&rtpof=true&sd=true
- *
- * Descripcion del programa:
- * 	Definicion de la clase CuentaCorriente
- * 	Subclase de Cuenta con funcionalidades específicas para cuentas corrientes
- *
- *******************************************************************************************************************/
-
 /**
  * Clase que representa una cuenta corriente.
  * Extiende la clase Cuenta e implementa lógica específica para retiros con comisión
