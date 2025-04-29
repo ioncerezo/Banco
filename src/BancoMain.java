@@ -154,7 +154,7 @@ public class BancoMain {
 
         // Se pagan los intereses de las cuentas de ahorro
         double total = unBanco.addInteres(interes);
-        System.out.print("En total se han pagado " + total + " euros");
+        System.out.printf("En total se han pagado %.2f euros", total);
         unBanco.setInteresAhorro(interes);
 
         // Se resetea el numero de retirada de dinero de las cuentas corrientes
