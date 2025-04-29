@@ -7,7 +7,7 @@ public class BancoMain {
     /**
      * Enumeración que define las opciones disponibles en el menú del programa.
      */
-    public static enum Opciones {
+    public enum Opciones {
         FIN("Fin del programa"),
         MOSTRAR("Mostrar cuentas ordenadas"),
         INTERESES("Pagar intereses"),
@@ -21,7 +21,7 @@ public class BancoMain {
          *
          * @param texto Descripción textual de la opción.
          */
-        private Opciones(String texto) {
+        Opciones(String texto) {
             this.texto = texto;
         }
 
