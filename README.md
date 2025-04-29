@@ -113,6 +113,11 @@ A continuación se muestran capturas de pantalla de las principales funcionalida
 
 *Proceso de pago de intereses y reseteo mensual*
 
+### Eliminar cliente
+![Eliminar clientes](screenshots/eliminar.png)
+
+*Eliminar*
+
 ## Ejemplo de Salida
 
 Al ejecutar la opción "Mostrar cuentas ordenadas", verá algo como:
