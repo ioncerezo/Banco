@@ -1,4 +1,4 @@
-# Sistema de Gestión Bancaria en Java
+# JavaBank CLI - Sistema de Gestión Bancaria en Java
 
 Este proyecto implementa un sistema de gestión bancaria en Java que permite administrar diferentes tipos de cuentas (ahorro y corriente), realizar transferencias, pagar intereses y gestionar clientes.
 
