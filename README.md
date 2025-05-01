@@ -113,6 +113,11 @@ A continuación se muestran capturas de pantalla de las principales funcionalida
 
 *Proceso de pago de intereses y reseteo mensual*
 
+### Eliminar cliente
+![Eliminar clientes](screenshots/eliminar.png)
+
+*Eliminar*
+
 ## Ejemplo de Salida
 
 Al ejecutar la opción "Mostrar cuentas ordenadas", verá algo como:
@@ -137,42 +142,5 @@ CuentaAhorro    : 87654321A (Asier)     Saldo 3000.00
 3. Los intereses se aplican solo a las cuentas de ahorro.
 4. Las retiradas en cuentas de ahorro requieren mantener un saldo mínimo de 10€.
 5. Las cuentas corrientes tienen un límite de 3 retiradas sin comisión por mes.
-
-## Diagrama de Clases
-
-```
-                        +----------------+
-                        |    Cliente     |
-                        +----------------+
-                        | -dni: String   |
-                        | -nombre: String|
-                        +----------------+
-                                ^
-                                |
-                        +----------------+
-                        |     Cuenta     |
-                        +----------------+
-                        | #titular: Cliente |
-                        | #saldo: double   |
-                        +----------------+
-                                ^
-                                |
-            +-------------------+-------------------+
-            |                                       |
-  +----------------+                      +----------------+
-  |  CuentaAhorro  |                      | CuentaCorriente|
-  +----------------+                      +----------------+
-  | +SALDO_MINIMO  |                      | +numeroRetiradas|
-  | +addInteres()  |                      | +resetea()     |
-  +----------------+                      +----------------+
-
-  +----------------+
-  |     Banco      |
-  +----------------+
-  | -cuentas: List |
-  | -interesAhorro |
-  +----------------+
-```
-
 ## Licencia
 Este proyecto está disponible como código abierto bajo la licencia MIT.
